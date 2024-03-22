@@ -1,0 +1,9 @@
+{
+    "query": "SELECT COUNT(*) AS aantal_steden\nFROM city\n\n",
+    "resultcount": 1,
+    "result": [
+        {
+            "aantal_steden": 27
+        }
+    ]
+}

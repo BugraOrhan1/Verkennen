@@ -1,0 +1,9 @@
+{
+    "query": "SELECT COUNT(*) FROM animal WHERE type IN ('Wolf', 'Bear', 'Eagle');\n",
+    "resultcount": 1,
+    "result": [
+        {
+            "COUNT(*)": 47
+        }
+    ]
+}

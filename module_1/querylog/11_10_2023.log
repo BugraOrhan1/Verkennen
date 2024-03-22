@@ -1,0 +1,150 @@
+select * 
+from region
+; #09:32:37@rubyquest.db
+select * 
+from region
+; #09:33:10@rubyquest.db
+select * from region 
+JOIN city
+on city.region = region.id 
+where region.name = 'breach'
+; #09:37:21@rubyquest.db
+select * from region 
+JOIN city
+on city.region = region.id 
+where region.name = 'breach'
+; #09:37:22@rubyquest.db
+select * from region 
+JOIN city
+on city.region = region.id 
+where region.name = 'breach'
+; #09:37:57@rubyquest.db
+select * from region 
+JOIN city
+on city.region = region.id 
+WHERE region.name = 'breach'
+; #09:38:10@rubyquest.db
+select count(*) from region 
+JOIN city
+on city.region = region.id 
+WHERE  region.name = 'breach'
+; #09:38:51@rubyquest.db
+select count(*) from region 
+JOIN city
+on city.region = region.id 
+WHERE  region.name = 'Breach'
+; #09:39:12@rubyquest.db
+select * from hero
+
+; #09:43:13@rubyquest.db
+select * from person
+
+
+; #09:43:39@rubyquest.db
+select * from person 
+
+
+; #09:44:54@rubyquest.db
+select * from person where name = 'bowser'
+
+
+; #09:46:38@rubyquest.db
+select * from person where name = 'Bowser'
+
+
+; #09:46:48@rubyquest.db
+select * from weapon 
+
+
+; #09:53:58@rubyquest.db
+select * from person 
+join weapon 
+on 
+person.name = weapon.name
+where person.name = 'Bowser'
+
+
+
+; #09:56:10@rubyquest.db
+select * from person 
+join weapon 
+on person.name = weapon.name
+where person.name = 'Bowser'
+
+
+
+; #09:56:17@rubyquest.db
+select * from person 
+join weapon 
+on person.name = weapon.name
+WHERE person.name = 'Bowser'
+
+
+
+; #09:56:39@rubyquest.db
+select * from person 
+join weapon 
+on person.name = weapon.name
+WHERE person.name = 'Bowser'
+
+
+
+; #09:57:02@rubyquest.db
+select * from person 
+join weapon 
+on person.name = weapon.id
+WHERE person.name = 'Bowser'
+
+
+
+; #09:57:35@rubyquest.db
+select * from person 
+join weapon 
+on person.name = weapon.id
+WHERE person.name = 'Bowser'
+
+
+
+; #09:57:42@rubyquest.db
+select * from person 
+join weapon 
+on person.name = weapon.id
+WHERE person.name = 'Bowser'
+
+
+
+; #10:00:27@rubyquest.db
+select * from person 
+join weapon 
+on person.name = weapon.name
+WHERE person.name = 'Bowser'
+
+
+
+; #10:01:40@rubyquest.db
+select * from person 
+join weapon 
+on weapon.id =person.weapon
+WHERE person.name = 'Bowser'
+
+
+
+; #10:04:04@rubyquest.db
+select * from person 
+join weapon 
+on weapon.id =person.weapon
+WHERE person.name = 'Bowser'
+
+
+
+
+; #10:05:41@rubyquest.db
+select person.attack + weapon.attack  from person 
+join weapon 
+on weapon.id =person.weapon
+WHERE person.name = 'Bowser'
+
+
+
+
+; #10:06:48@rubyquest.db

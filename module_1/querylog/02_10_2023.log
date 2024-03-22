@@ -1,0 +1,28 @@
+select * from npc
+; #09:23:28@rubyquest.db
+select * from person
+
+; #09:23:51@rubyquest.db
+SELECT * FROM person ORDER BY name
+; #09:31:29@rubyquest.db
+SELECT * FROM city ORDER BY name; #09:32:58@rubyquest.db
+SELECT * FROM person LIMIT 10; #09:33:44@rubyquest.db
+SELECT * FROM weapon ORDER BY price DESC LIMIT 5;; #09:34:48@rubyquest.db
+SELECT * FROM weapon ; #09:36:09@rubyquest.db
+SELECT * FROM weapon ORDER BY attack DESC LIMIT 3;; #09:36:27@rubyquest.db
+SELECT * FROM creature WHERE name IN ('Killer Bee', 'Orc');
+; #09:47:33@rubyquest.db
+SELECT * FROM animal 
+; #09:50:41@rubyquest.db
+SELECT * FROM animal WHERE speed = 6 AND defense = 5;
+; #09:51:00@rubyquest.db
+SELECT COUNT(*) FROM animal ; #09:52:01@rubyquest.db
+SELECT * FROM animal ; #09:52:21@rubyquest.db
+SELECT COUNT(*) FROM animal WHERE type IN ('Wolf', 'Bear', 'Eagle');
+; #09:52:44@rubyquest.db
+SELECT * FROM animal  ORDER BY speed DESC LIMIT 1;
+; #10:12:41@rubyquest.db
+SELECT * FROM person WHERE attack = 10 AND defense = 10 AND agility = 10;
+; #10:13:36@rubyquest.db
+SELECT * FROM hero WHERE intelligence NOT IN (30, 90);
+; #10:14:18@rubyquest.db

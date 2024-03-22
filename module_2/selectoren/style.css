@@ -1,0 +1,35 @@
+body {
+    background-color: blue;
+    color: whitesmoke;
+font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+p{
+    color: orange;
+}
+
+section p {
+    background-color: blueviolet;
+}
+section ul li{
+    background-color: brown;
+}
+
+section > p {
+    background-color:yellowgreen;
+    color: black;
+}
+P+P{
+    background-color: deeppink;
+    color: darkblue;
+}
+ol li + li {
+    background-color: hotpink;
+    color: green;
+}
+section  *{
+    text-decoration: underline;
+}
+ol :first-child ol :first-child{
+    text-transform:uppercase
+}

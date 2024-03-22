@@ -1,0 +1,5 @@
+{
+    "query": "select * from person \njoin weapon \non person.name = weapon.name\nWHERE person.name = 'Bowser'\n\n\n\n",
+    "resultcount": 0,
+    "result": []
+}

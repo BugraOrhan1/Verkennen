@@ -1,0 +1,9 @@
+{
+    "query": "select person.attack + weapon.attack  from person \njoin weapon \non weapon.id =person.weapon\nWHERE person.name = 'Bowser'\n\n\n\n\n",
+    "resultcount": 1,
+    "result": [
+        {
+            "person.attack + weapon.attack": 1400
+        }
+    ]
+}

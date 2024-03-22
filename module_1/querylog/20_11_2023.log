@@ -1,0 +1,16 @@
+SELECT COUNT(*) AS aantal_steden
+FROM city
+
+; #09:31:16@rubyquest.db
+SELECT COUNT(*) AS aantal_steden
+FROM city
+
+; #09:31:18@rubyquest.db
+SELECT *
+FROM city
+
+; #09:32:31@rubyquest.db
+SELECT COUNT(*) AS aantal_city
+FROM city
+WHERE region = 'Breach';
+; #09:32:52@rubyquest.db

@@ -1,0 +1,14 @@
+{
+    "query": "SELECT * FROM animal  ORDER BY speed DESC LIMIT 1;\n",
+    "resultcount": 1,
+    "result": [
+        {
+            "id": 77,
+            "type": "Tiger",
+            "speed": 10,
+            "defense": 9,
+            "loyalty": 3,
+            "owner": 8
+        }
+    ]
+}

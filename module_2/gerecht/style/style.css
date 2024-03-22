@@ -1,0 +1,75 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  line-height: 26px;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+  line-height: 36px;
+}
+
+.subtitle {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.ingredients, .instructions, .tip {
+  margin-top: 40px;
+}
+
+.ingredients ul, .instructions ol {
+  padding-left: 20px;
+}
+
+.ingredients li, .instructions li {
+  margin-bottom: 10px;
+}
+
+.instructions li {
+  margin-bottom: 20px;
+}
+
+.tip {
+  background-color: #4bd7a4;
+  border-radius: 4px;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.tip p {
+  margin: 0;
+}
+
+.menu {
+  margin-top: 40px;
+}
+
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.ingredients{
+  text-align:center
+}

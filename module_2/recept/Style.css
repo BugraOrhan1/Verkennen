@@ -1,0 +1,57 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 26px;
+  }
+  
+  .container {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 40px;
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 36px;
+    line-height: 36px;
+  }
+  
+  .subtitle {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  
+  #ingredients,
+  #instructions {
+    margin-top: 40px;
+  }
+  
+  ul,
+  ol {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .tip-box {
+    background-color: #def6ed;
+    border-radius: 4px;
+    padding: 15px;
+    margin-top: 25px;
+  }
+  
+  nav {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  

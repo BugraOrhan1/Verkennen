@@ -1,0 +1,9 @@
+SELECT name
+FROM city
+WHERE region IN ('North Groval', 'South Groval');; #09:49:18@rubyquest.db
+SELECT name
+FROM city
+WHERE region IN ('North Groval', 'South Groval');; #09:49:20@rubyquest.db
+SELECT name
+FROM city
+WHERE name IN ('North Groval', 'South Groval');; #09:49:30@rubyquest.db

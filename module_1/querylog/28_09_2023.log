@@ -1,0 +1,17 @@
+select * from quest ; #11:20:15@rubyquest.db
+select * from quest where experience > 3000; #11:22:45@rubyquest.db
+select * from hero ; #11:27:32@rubyquest.db
+select * from hero 
+; #11:27:56@rubyquest.db
+select * from hero where health >1600
+; #11:28:37@rubyquest.db
+select * from hero 
+; #11:30:39@rubyquest.db
+select * from person; #11:33:41@rubyquest.db
+select * from person where gold >1800; #11:36:47@rubyquest.db
+select * from person where gold <1850; #11:37:46@rubyquest.db
+select * from person where gold >1350; #11:41:38@rubyquest.db
+select * from weapon 
+; #11:42:56@rubyquest.db
+select * from weapon where price <350
+; #11:43:10@rubyquest.db

@@ -1,0 +1,20 @@
+{
+    "query": "select * from person \njoin weapon \non weapon.id =person.weapon\nWHERE person.name = 'Bowser'\n\n\n\n\n",
+    "resultcount": 1,
+    "result": [
+        {
+            "id": 48,
+            "name": "Shell Chain",
+            "sex": "m",
+            "max_health": 10000,
+            "attack": 1000,
+            "defense": 100,
+            "agility": 80,
+            "experience": 500000,
+            "gold": 10000,
+            "weapon": 48,
+            "armor": 19,
+            "price": 0
+        }
+    ]
+}

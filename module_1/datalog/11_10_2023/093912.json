@@ -1,0 +1,9 @@
+{
+    "query": "select count(*) from region \nJOIN city\non city.region = region.id \nWHERE  region.name = 'Breach'\n",
+    "resultcount": 1,
+    "result": [
+        {
+            "count(*)": 7
+        }
+    ]
+}

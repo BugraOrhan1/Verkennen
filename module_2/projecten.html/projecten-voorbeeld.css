@@ -1,0 +1,39 @@
+body {
+  width: 95%;
+  margin: 0 auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section.projecten {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div.project {
+  padding: 15px;
+  width: calc(33.33% - 220px);
+  text-align: center;
+  min-width: 150px;
+}
+
+p.logo {
+  height: 100px;
+}
+
+p.logo img {
+  width: 50%;
+}
+
+p.language {
+  font-size: 1.2em;
+}
+
+p.title {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+p.description {
+  font-size: 1em;
+  text-align: left;
+}

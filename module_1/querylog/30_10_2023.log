@@ -1,0 +1,44 @@
+SELECT * 
+FROM weapon
+WHERE price BETWEEN 100 AND 1000;
+; #10:04:20@rubyquest.db
+SELECT * 
+FROM weapon
+WHERE attack BETWEEN 300 AND 600;
+; #10:07:17@rubyquest.db
+SELECT COUNT(*) 
+FROM animal
+ 
+; #10:08:11@rubyquest.db
+SELECT *
+FROM animal
+ 
+; #10:08:21@rubyquest.db
+SELECT COUNT(*) 
+FROM animal
+WHERE defense BETWEEN 7 AND 9;
+; #10:08:44@rubyquest.db
+SELECT * 
+FROM person
+WHERE name LIKE 'B%';
+; #10:11:34@rubyquest.db
+SELECT * 
+FROM animal
+
+; #10:14:22@rubyquest.db
+SELECT * 
+FROM animal
+WHERE type LIKE '%a%';
+; #10:14:49@rubyquest.db
+SELECT * 
+FROM person
+WHERE name LIKE 'B%';
+; #10:15:40@rubyquest.db
+SELECT * 
+FROM animal
+WHERE type LIKE '%e%a%';
+; #10:16:29@rubyquest.db
+SELECT * 
+FROM weapon
+WHERE name LIKE '%d';
+; #10:17:03@rubyquest.db

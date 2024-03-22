@@ -1,0 +1,9 @@
+{
+    "query": "SELECT COUNT(*) AS aantal_city\nFROM city\nWHERE region = 'Breach';\n",
+    "resultcount": 1,
+    "result": [
+        {
+            "aantal_city": 0
+        }
+    ]
+}

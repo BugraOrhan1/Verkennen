@@ -1,0 +1,10 @@
+{
+    "query": "select price, AVG(price) from weapon",
+    "resultcount": 1,
+    "result": [
+        {
+            "price": 10,
+            "AVG(price)": 741.6346153846154
+        }
+    ]
+}
